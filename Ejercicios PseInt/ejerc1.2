@@ -1,0 +1,33 @@
+Proceso sin_titulo
+	Definir A,B,C Como Entero
+	Escribir 'inserte valor1:'
+	Leer A
+	Escribir 'inserte valor2:'
+	Leer B
+	Escribir 'inserte valor3:'
+	Leer C
+	Mientras A=B Hacer
+		Mientras A=c Hacer
+			Mientras B=C Hacer
+			
+			FinMientras
+		FinMientras
+	FinMientras
+	Si A>B y A>C Entonces
+		Si B>C Entonces
+			Escribir A,'es el mayor y ' C " es el menor"
+		SiNo
+			Escribir A,'es el mayor y ' B, " es el menor"
+		FinSi
+	SiNo
+		Si B>C y A>C Entonces
+			Escribir B,'es el mayor y' A, " es el menor"
+		SiNo
+			Si A>C Entonces
+				Escribir C "es el mayor y" B "es el menor"
+			SiNo
+				Escribir C "es el mayor y " A "es el menor"
+			FinSi
+		FinSi
+	FinSi
+FinProceso
